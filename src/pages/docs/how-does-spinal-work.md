@@ -8,7 +8,7 @@ order: 2
 
 Content here. You can use **markdown**.
 
-![Image.](/src/assets/Lynx-Astronout-Final.png)
+![Image.](/assets/Lynx-Astronout-Final.png)
 
 image testsss
-<img src="/src/assets/Lynx-Astronout-Final.png" alt="Image.">
+<img width="24" height="24" src="/assets/Lynx-Astronout-Final.png" alt="Image.">
