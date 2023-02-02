@@ -5,12 +5,14 @@ import ContentNavigation from "../components/ContentNavigation.astro";
 import VideoWalkthrough from "../components/VideoWalkthrough.astro";
 import ContentFooter from "../components/ContentFooter.astro";
 import QuickLinks from "../components/QuickLinks.astro";
+import '../styles/utils.css';
 
 export interface Props {
   title: string;
 }
 
 const { content = {} } = Astro.props;
+
 ---
 
 <!DOCTYPE html>
@@ -45,11 +47,7 @@ const { content = {} } = Astro.props;
           </header>
 
           <p class="mt-2 text-xl text-slate-600">
-            {content.description}
-          </p>
-
-          <p class="mt-2 text-xl text-slate-600">
-            {content.date}
+            Last updated: {content.date}
           </p>
 
           <div
