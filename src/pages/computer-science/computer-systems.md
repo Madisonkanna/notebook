@@ -114,13 +114,13 @@ Pointers provide the mechanism for referencing elements of data structures, incl
 
 Written in hexadecimal, the value of a single byte can range from 00<sup>16</sup> to FF<sup>16</sup>. In C, numeric constants starting with 0x or 0X are interpreted as being in hexadecimal.
 
-**Hex to binary.**
-
-You can convert hex to binary by expanding each hexadecimal digit. Example:
-
  <img src="/assets/hex-to-binary.png" alt="Image.">
 
 Given a binary number, you can convert it to hexadecimal by first splitting it into groups of 4 bits each. Note, however, that if the total number of bits is not a multiple of 4, you should make the leftmost group be the one with fewer than 4 bits, effectively padding the number with leading zeros.
+
+**Hex to binary.**
+
+You can convert hex to binary by expanding each hexadecimal digit. Example:
 
 **Practice problems.**
 
